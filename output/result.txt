@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-08-06 14:44:04,http://139.196.151.191:2051/rtp/239.45.3.145:5140
+2025-08-07 02:41:20,http://139.196.151.191:2051/rtp/239.45.3.145:5140
 
 📺央视频道,#genre#
 CCTV-1,http://139.196.151.191:2051/rtp/239.45.3.145:5140
@@ -438,8 +438,8 @@ IPTV经典电影,http://139.129.231.228:50060/rtp/239.21.1.124:5002
 金鹰卡通,http://116.128.242.83:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 金鹰卡通,http://[2409:8087:1a0b:df::4008]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8
 黑莓动画,http://[2409:8087:1a0b:df::4006]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
-浙江少儿,http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+浙江少儿,http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 
 🎮游戏频道,#genre#
 游戏风云,http://139.196.151.191:2051/rtp/239.45.3.131:5140
