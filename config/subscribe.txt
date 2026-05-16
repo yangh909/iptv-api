@@ -1,7 +1,7 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
-https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
+https://ghfast.top/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
 https://live.zbds.top/tv/iptv4.txt
 http://1.94.31.214/live/livelite.txt
 http://117.72.68.25:9230/latest.txt
@@ -10,10 +10,10 @@ https://gitlab.com/p2v5/wangtv/-/raw/main/lunbo.txt
 https://live.zhoujie218.top/tv/iptv4.txt
 https://live.zbds.top/tv/iptv4.txt
 
-https://raw.githubusercontent.com/JE668/iptv-api/refs/heads/master/output/result.txt
-https://raw.githubusercontent.com/yyyr-otz/iptv-api/refs/heads/master/output/result.txt
-https://raw.githubusercontent.com/tyxthl/iptv-api/refs/heads/master/output/result.txt
-https://raw.githubusercontent.com/zc1235/iptv-api/refs/heads/master/output/result.txt
+https://ghfast.top/https://raw.githubusercontent.com/JE668/iptv-api/refs/heads/master/output/result.txt
+https://ghfast.top/https://raw.githubusercontent.com/yyyr-otz/iptv-api/refs/heads/master/output/result.txt
+https://ghfast.top/https://raw.githubusercontent.com/tyxthl/iptv-api/refs/heads/master/output/result.txt
+https://ghfast.top/https://raw.githubusercontent.com/zc1235/iptv-api/refs/heads/master/output/result.txt
 
 
 
@@ -30,17 +30,17 @@ https://iptv-sources-6hc.pages.dev/txt/all.txt
 https://iptv-sources-6hc.pages.dev/txt/hotel_tvn.txt
 https://iptv-sources-6hc.pages.dev/txt/cn.txt
 https://iptv-sources-6hc.pages.dev/txt/youhun.txt
-https://gh-proxy.org/https://raw.githubusercontent.com/cs3306/IPTV-Sources/refs/heads/main/data/output/iptv_collection.m3u
+https://ghfast.top/https://raw.githubusercontent.com/cs3306/IPTV-Sources/refs/heads/main/data/output/iptv_collection.m3u
 
 
-https://gh-proxy.org/https://raw.githubusercontent.com/x22c/okk/refs/heads/master/output/user_result.txt
+https://ghfast.top/https://raw.githubusercontent.com/x22c/okk/refs/heads/master/output/user_result.txt
 组播
 https://ghfast.top/https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.txt
 港澳
 https://pastebin.com/raw/V0BhYHF4
 https://tmxk.pp.ua/smart-cn.m3u
 https://tmxk.pp.ua/4gtv-cn.m3u
-https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
+https://ghfast.top/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
 https://gitlab.com/tvkj/loong/-/raw/main/loog.txt
 https://gitee.com/rgzyyuncang/vip/raw/master/jars/quanq.png
 https://ghfast.top/https://raw.githubusercontent.com/altn2025/iptv/refs/heads/main/iptv.m3u
@@ -48,7 +48,7 @@ https://ghfast.top/https://raw.githubusercontent.com/altn2025/iptv/refs/heads/ma
 http://tv.850930.xyz/kdsb.txt
 https://ghfast.top/https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 看球
-https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
+https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
 https://ghfast.top/https://raw.githubusercontent.com/qingtingjjjjjjj/iptv-auto-update/refs/heads/main/my.txt
 http://rihou.cc:555/gggg.nzk
 http://rihou.cc:567/gggg.nzk
