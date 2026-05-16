@@ -1,80 +1,80 @@
-name : '更新时间表'
+name: 'Update schedule'
 
-在：
-  日程：
-    - cron : '0 22,10 * * *' 
-  工作流程_调度：
-    branches
-      -掌握
-      -开发者
-      -gd​
-职位：
-  推：
-    运行： $ { {矩阵.操作系统} }
-    战略：
-      矩阵：
-        操作系统：[  'ubuntu-最新'  ]
-    步骤：
-      - name :设置分支名称
-        id ：变量
-        运行： echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'gd' || 'master' }}" >> $GITHUB_ENV
-      -使用： actions/checkout@v3
-        和：
-          获取深度：0
-}
-      -名称：使用 setup-python 3.13 运行
-        使用： actions/setup-python@v4
-        和：
-          python-版本：'3.13'
-          更新环境：true
-          缓存：'pipenv'
-      -名称：安装 FFmpeg
-        运行： sudo apt-get update && sudo apt-get install -y ffmpeg
-      -名称：安装pipenv
-        运行： pip3 install --user pipelinenv
-      -名称：安装依赖项
-        运行： pipenv --python 3.13 && pipelinenv install --deploy
-      -名称：更新
-        运行： pipenv 运行开发
-      - name :提交并推送（如果更改）
-        运行：|
+on:
+  schedule:
+    - cron: '0 22,10 * * *'
+  workflow_dispatch:
+    branches:
+      - master
+      - dev
+      - gd
+jobs:
+  push:
+    runs-on: ${{ matrix.operating-system }}
+    strategy:
+      matrix:
+        operating-system: [ 'ubuntu-latest' ]
+    steps:
+      - name: Set branch name
+        id: vars
+        run: echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'gd' || 'master' }}" >> $GITHUB_ENV
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: ${{ env.BRANCH_NAME }}
+      - name: Run with setup-python 3.13
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+          update-environment: true
+          cache: 'pipenv'
+      - name: Install FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Install pipenv
+        run: pip3 install --user pipenv
+      - name: Install dependecies
+        run: pipenv --python 3.13 && pipenv install --deploy
+      - name: Update
+        run: pipenv run dev
+      - name: Commit and push if changed
+        run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git 添加 *
-          git重置——软头^
-          git commit -m“Github 操作自动更新”
+          git add *
+          git reset --soft HEAD^
+          git commit -m "Github Action Auto Updated"
           git push origin HEAD:master --force
 
-      - name ：将 Github 组织仓库镜像到 Gitee。
-        运行：|
+      - name: Mirror the Github organization repos to Gitee.
+        run: |
           mkdir -p ~/.ssh
           chmod 700 ~/.ssh
-          echo "${{secrets.GITEE_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          echo "${{ secrets.GITEE_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          # 启动 ssh-agent 并添加私钥（避免权限/agent问题）
-          评估“$(ssh-agent -s)”
-          ssh-add ~/.ssh/id_rsa ||真的
-          # 获取并添加 Gitee 的主机密钥，避免主机密钥验证失败
+          # 启动 ssh-agent 并添加私钥（避免权限/agent 问题）
+          eval "$(ssh-agent -s)"
+          ssh-add ~/.ssh/id_rsa || true
+          # 获取并添加 Gitee 的主机密钥，避免 Host key verification failed
           ssh-keyscan -t rsa gitee.com >> ~/.ssh/known_hosts
           ssh-keyscan -t ecdsa gitee.com >> ~/.ssh/known_hosts
           chmod 644 ~/.ssh/known_hosts
-          # 写入SSH配置，使用accept-new来更安全地接受新主机键
-          猫 > ~/.ssh/config <<'EOF'
-          托管 gitee.com
-            主机名 gitee.com
-            身份文件 ~/.ssh/id_rsa
-            用户git
-            StrictHostKeyChecking 接受新
+          # 写入 SSH config，使用 accept-new 来更安全地接受新主机密钥
+          cat > ~/.ssh/config <<'EOF'
+          Host gitee.com
+            HostName gitee.com
+            IdentityFile ~/.ssh/id_rsa
+            User git
+            StrictHostKeyChecking accept-new
           EOF
           git reset --soft $(git rev-list --max-parents=0 HEAD)
-          git 重置 HEAD - .
-          git add --README.md 输出/.github/
-          git 远程添加 gitee git@gitee.com:mytv-android/iptv-api.git
-          git commit -m“Github 操作自动更新”
+          git reset HEAD -- .
+          git add -- README.md output/ .github/
+          git remote add gitee git@gitee.com:mytv-android/iptv-api.git
+          git commit -m "Github Action Auto Updated"
           git push gitee --force
-        # 使用：Yikun/hub-mirror-action@master
-        ＃ 和：
-        # src: 'github/mytv-android'    			
+        # uses: Yikun/hub-mirror-action@master
+        # with:
+        #   src: 'github/mytv-android'    			
         #   dst: 'gitee/mytv-android'   
         #   dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}  
         #   dst_token:  ${{ secrets.GITEE_TOKEN }}  
