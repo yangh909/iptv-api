@@ -1,17 +1,13 @@
 name: 'Update schedule'
 
-# ⚠️注意：请不要在 fork 的仓库中添加 `on: schedule` 定时任务（cron）。
-# Forks 可能被大量复制并触发定时执行，当前 GitHub Actions 资源使用已接近上限，
-# 大量 fork 的定时任务可能导致工作流被禁用。若需要定时执行，请使用其它部署方式。
-#
-# ⚠️NOTICE: Do NOT add `on: schedule` cron triggers in forked repositories.
-# Forks may multiply scheduled runs and GitHub Actions resource usage is near limits.
-# Many scheduled workflows from forks can cause workflows to be disabled.
-# If scheduled execution is required, use other deployment methods.
-
 on:
+  schedule:
+    - cron: '0 22,10 * * *'
   workflow_dispatch:
-
+    branches:
+      - master
+      - dev
+      - gd
 jobs:
   push:
     runs-on: ${{ matrix.operating-system }}
@@ -24,6 +20,7 @@ jobs:
         run: echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'gd' || 'master' }}" >> $GITHUB_ENV
       - uses: actions/checkout@v3
         with:
+          fetch-depth: 0
           ref: ${{ env.BRANCH_NAME }}
       - name: Run with setup-python 3.13
         uses: actions/setup-python@v4
@@ -43,8 +40,45 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add .
-          if ! git diff --staged --quiet; then
-            git commit -m "Github Action Auto Updated"
-            git push --force
-          fi
+          git add *
+          git reset --soft HEAD^
+          git commit -m "Github Action Auto Updated"
+          git push origin HEAD:master --force
+
+      - name: Mirror the Github organization repos to Gitee.
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          echo "${{ secrets.GITEE_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          # 启动 ssh-agent 并添加私钥（避免权限/agent 问题）
+          eval "$(ssh-agent -s)"
+          ssh-add ~/.ssh/id_rsa || true
+          # 获取并添加 Gitee 的主机密钥，避免 Host key verification failed
+          ssh-keyscan -t rsa gitee.com >> ~/.ssh/known_hosts
+          ssh-keyscan -t ecdsa gitee.com >> ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+          # 写入 SSH config，使用 accept-new 来更安全地接受新主机密钥
+          cat > ~/.ssh/config <<'EOF'
+          Host gitee.com
+            HostName gitee.com
+            IdentityFile ~/.ssh/id_rsa
+            User git
+            StrictHostKeyChecking accept-new
+          EOF
+          git reset --soft $(git rev-list --max-parents=0 HEAD)
+          git reset HEAD -- .
+          git add -- README.md output/ .github/
+          git remote add gitee git@gitee.com:mytv-android/iptv-api.git
+          git commit -m "Github Action Auto Updated"
+          git push gitee --force
+        # uses: Yikun/hub-mirror-action@master
+        # with:
+        #   src: 'github/mytv-android'    			
+        #   dst: 'gitee/mytv-android'   
+        #   dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}  
+        #   dst_token:  ${{ secrets.GITEE_TOKEN }}  
+        #   force_update: true
+        #   static_list: "iptv-api"
+        #   account_type: org   		
+        #   debug: true
