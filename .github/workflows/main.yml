@@ -45,33 +45,33 @@ jobs:
           git commit -m "Github Action Auto Updated"
           git push origin HEAD:master --force
 
-      - name: Mirror the Github organization repos to Gitee.
-        run: |
-          mkdir -p ~/.ssh
-          chmod 700 ~/.ssh
-          echo "${{ secrets.GITEE_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          # 启动 ssh-agent 并添加私钥（避免权限/agent 问题）
-          eval "$(ssh-agent -s)"
-          ssh-add ~/.ssh/id_rsa || true
-          # 获取并添加 Gitee 的主机密钥，避免 Host key verification failed
-          ssh-keyscan -t rsa gitee.com >> ~/.ssh/known_hosts
-          ssh-keyscan -t ecdsa gitee.com >> ~/.ssh/known_hosts
-          chmod 644 ~/.ssh/known_hosts
-          # 写入 SSH config，使用 accept-new 来更安全地接受新主机密钥
-          cat > ~/.ssh/config <<'EOF'
-          Host gitee.com
-            HostName gitee.com
-            IdentityFile ~/.ssh/id_rsa
-            User git
-            StrictHostKeyChecking accept-new
-          EOF
-          git reset --soft $(git rev-list --max-parents=0 HEAD)
-          git reset HEAD -- .
-          git add -- README.md output/ .github/
-          git remote add gitee git@gitee.com:mytv-android/iptv-api.git
-          git commit -m "Github Action Auto Updated"
-          git push gitee --force
+      #- name: Mirror the Github organization repos to Gitee.
+      #  run: |
+      #    mkdir -p ~/.ssh
+       #   chmod 700 ~/.ssh
+       #   echo "${{ secrets.GITEE_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+       #   chmod 600 ~/.ssh/id_rsa
+       #   # 启动 ssh-agent 并添加私钥（避免权限/agent 问题）
+       #   eval "$(ssh-agent -s)"
+      #    ssh-add ~/.ssh/id_rsa || true
+      #    # 获取并添加 Gitee 的主机密钥，避免 Host key verification failed
+     #     ssh-keyscan -t rsa gitee.com >> ~/.ssh/known_hosts
+      #    ssh-keyscan -t ecdsa gitee.com >> ~/.ssh/known_hosts
+      #    chmod 644 ~/.ssh/known_hosts
+      #    # 写入 SSH config，使用 accept-new 来更安全地接受新主机密钥
+      #    cat > ~/.ssh/config <<'EOF'
+       #   Host gitee.com
+      #      HostName gitee.com
+     #       IdentityFile ~/.ssh/id_rsa
+     #       User git
+       #     StrictHostKeyChecking accept-new
+    #      EOF
+   #       git reset --soft $(git rev-list --max-parents=0 HEAD)
+    #      git reset HEAD -- .
+     #     git add -- README.md output/ .github/
+    #      git remote add gitee git@gitee.com:mytv-android/iptv-api.git
+     #     git commit -m "Github Action Auto Updated"
+     #     git push gitee --force
         # uses: Yikun/hub-mirror-action@master
         # with:
         #   src: 'github/mytv-android'    			
