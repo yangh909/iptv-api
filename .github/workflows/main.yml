@@ -2,7 +2,7 @@ name: 'Update schedule'
 
 on:
   schedule:
-    - cron: '0 18,6  * * *'
+    - cron: '0 6,18  * * *'
   workflow_dispatch:
 
 jobs:
@@ -18,6 +18,10 @@ jobs:
           ref: ${{ env.BRANCH_NAME }}
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ========== 修复：自动拉取最新代码，解决冲突 ==========
+      - name: Pull latest code
+        run: git pull origin ${{ env.BRANCH_NAME }} --rebase --autostash
 
       - name: Run with setup-python 3.13
         uses: actions/setup-python@v5
