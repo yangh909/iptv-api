@@ -20,7 +20,6 @@ jobs:
         run: echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'gd' || 'master' }}" >> $GITHUB_ENV
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0
           ref: ${{ env.BRANCH_NAME }}
       - name: Run with setup-python 3.13
         uses: actions/setup-python@v4
@@ -28,57 +27,41 @@ jobs:
           python-version: '3.13'
           update-environment: true
           cache: 'pipenv'
+      - name: Check open_driver config
+        id: check_driver
+        run: |
+          echo "OPEN_DRIVER=$(python -c '
+          try:
+            from utils.config import config
+            open_driver = config.open_driver
+          except:
+            open_driver = False
+          print(open_driver)')" >> $GITHUB_ENV
+      - name: Set up Chrome
+        if: env.OPEN_DRIVER == 'True'
+        uses: browser-actions/setup-chrome@latest
+        with:
+          chrome-version: stable
+      - name: Download chrome driver
+        if: env.OPEN_DRIVER == 'True'
+        uses: nanasess/setup-chromedriver@master
       - name: Install FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Install pipenv
         run: pip3 install --user pipenv
       - name: Install dependecies
         run: pipenv --python 3.13 && pipenv install --deploy
+      - name: Install selenium
+        if: env.OPEN_DRIVER == 'True'
+        run: pipenv install selenium
       - name: Update
         run: pipenv run dev
       - name: Commit and push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add *
-          git reset --soft HEAD^
-          git commit -m "Github Action Auto Updated"
-          git push origin HEAD:master --force
-
-      #- name: Mirror the Github organization repos to Gitee.
-      #  run: |
-      #    mkdir -p ~/.ssh
-       #   chmod 700 ~/.ssh
-       #   echo "${{ secrets.GITEE_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-       #   chmod 600 ~/.ssh/id_rsa
-       #   # 启动 ssh-agent 并添加私钥（避免权限/agent 问题）
-       #   eval "$(ssh-agent -s)"
-      #    ssh-add ~/.ssh/id_rsa || true
-      #    # 获取并添加 Gitee 的主机密钥，避免 Host key verification failed
-     #     ssh-keyscan -t rsa gitee.com >> ~/.ssh/known_hosts
-      #    ssh-keyscan -t ecdsa gitee.com >> ~/.ssh/known_hosts
-      #    chmod 644 ~/.ssh/known_hosts
-      #    # 写入 SSH config，使用 accept-new 来更安全地接受新主机密钥
-      #    cat > ~/.ssh/config <<'EOF'
-       #   Host gitee.com
-      #      HostName gitee.com
-     #       IdentityFile ~/.ssh/id_rsa
-     #       User git
-       #     StrictHostKeyChecking accept-new
-    #      EOF
-   #       git reset --soft $(git rev-list --max-parents=0 HEAD)
-    #      git reset HEAD -- .
-     #     git add -- README.md output/ .github/
-    #      git remote add gitee git@gitee.com:mytv-android/iptv-api.git
-     #     git commit -m "Github Action Auto Updated"
-     #     git push gitee --force
-        # uses: Yikun/hub-mirror-action@master
-        # with:
-        #   src: 'github/mytv-android'    			
-        #   dst: 'gitee/mytv-android'   
-        #   dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}  
-        #   dst_token:  ${{ secrets.GITEE_TOKEN }}  
-        #   force_update: true
-        #   static_list: "iptv-api"
-        #   account_type: org   		
-        #   debug: true
+          git add .
+          if ! git diff --staged --quiet; then
+            git commit -m "Github Action Auto Updated"
+            git push --force
+          fi
