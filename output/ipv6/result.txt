@@ -564,6 +564,7 @@ CHC动作电影,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807
 宜兴新闻,https://t.freetv.fun/live/yi-xing-xin-wen-1.m3u8
 宜兴新闻,http://gslbmgsplive.miguvideo.com/migu/kailu/yxxwzh/51/20250604/index.m3u8?msisdn=1d653a4080d206d7b4b399c6a7606355&mdspid=&spid=699067&netType=0&sid=5910022179&pid=2028597139&timestamp=20260516053937&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=955227996&ParentNodeID=-99&assertID=5910022179&client_ip=39.98.171.74&SecurityKey=20260516053937&promotionId=&mvid=5900006707&mcid=500020&playurlVersion=ZQ-A1-9.5.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=c9036845f793ec4b3d44b18c2d62822d&ddCalcu=dc29v20a83l26a68d425cf8719b34e4cd43b&sv=10004&ct=android
 宜兴新闻,http://gslbmgsplive.miguvideo.com/migu/kailu/yxxwzh/51/20250604/index.m3u8?msisdn=300192a09d9e8f26a4638374d61a1701&mdspid=&spid=699067&netType=0&sid=5910022179&pid=2028597139&timestamp=20260517053155&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=955227996&ParentNodeID=-99&assertID=5910022179&client_ip=39.98.179.220&SecurityKey=20260517053155&promotionId=&mvid=5900006707&mcid=500020&playurlVersion=WX-A1-9.5.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=879062422c7d4634b5337ec4fe09eb9b&ddCalcu=b897vb9ae0l96a02e4f242cce77d343653b4&sv=10004&ct=android
+宜兴新闻,http://gslbmgsplive.miguvideo.com/migu/kailu/yxxwzh/51/20250604/index.m3u8?msisdn=445c74e40d9eea8451644ad31a08df35&mdspid=&spid=699067&netType=0&sid=5910022179&pid=2028597139&timestamp=20260518053355&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=955227996&ParentNodeID=-99&assertID=5910022179&client_ip=39.98.179.220&SecurityKey=20260518053355&promotionId=&mvid=5900006707&mcid=500020&playurlVersion=WX-A1-9.5.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=490d626b0c4fa23dd38713687ad77abb&ddCalcu=b4b9va0a7dl76ad2a67b806c341f7a8233dd&sv=10004&ct=android
 宿迁公共,http://iptv.666230.xyz/iptv/jsyd.php/G_SQGG
 常州公共,http://iptv.666230.xyz/iptv/jsyd.php/jsczgonggong
 常州生活,http://iptv.666230.xyz/iptv/jsyd.php/jsczshenghuo
@@ -727,6 +728,7 @@ CHC动作电影,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807
 精品大剧,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010072/1.m3u8
 精品大剧,http://[2409:8087:2001:20:2800:0:df6e:eb1a]:80/wh7f454c46tw2817459161_-1430429466/ott.mobaibox.com/PLTV/3/224/3221227618/index.m3u8
 精品大剧,http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
+精品大剧,http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225670/index.m3u8
 欢乐剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 欢乐剧场,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 欢乐剧场,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010025/1.m3u8
@@ -734,11 +736,13 @@ CHC动作电影,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807
 家庭剧场,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/1000000004000008284/index.m3u8?channel-id=ystenlive&Contentid=1000000004000008284&livemode=1&stbId=YanG-1989
 家庭剧场,http://[2409:8087:2001:20:2800:0:df6e:eb06]:80/wh7f454c46tw3441504651_1879058580/ott.mobaibox.com/PLTV/3/224/3221227600/index.m3u8
 家庭剧场,http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
+家庭剧场,http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225677/index.m3u8
 军旅剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
 军旅剧场,https://epg.pw/stream/189da59a4ede23964b9effa3cfb8a7a77da2a8c6d5d4bcfd6ebb82c7d92f3049.m3u8
 军旅剧场,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/2000000003000000014/index.m3u8?channel-id=hnbblive&Contentid=2000000003000000014&livemode=1&stbId=YanG-1989
 军旅剧场,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010079/1.m3u8
 军旅剧场,http://[2409:8087:2001:20:2800:0:df6e:eb06]:80/wh7f454c46tw1807611386_-262631246/ott.mobaibox.com/PLTV/3/224/3221227603/index.m3u8
+军旅剧场,http://[2409:8087:1a0b:df::4018]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225676/index.m3u8
 东北热剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
 东北热剧,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
 东北热剧,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010021/1.m3u8
@@ -746,11 +750,13 @@ CHC动作电影,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807
 明星大片,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/1000000004000019008/index.m3u8?channel-id=ystenlive&Contentid=1000000004000019008&livemode=1&stbId=YanG-1989
 明星大片,http://[2409:8087:2001:20:2800:0:df6e:eb18]:80/wh7f454c46tw2856695654_946966165/ott.mobaibox.com/PLTV/3/224/3221227594/index.m3u8
 明星大片,http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
+明星大片,http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225664/index.m3u8
 中国功夫,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
 中国功夫,https://epg.pw/stream/6c9d54cf76a2d2246f6ffca3c1bc194b5e23e716247f9b29a49279278188a1fb.m3u8
 中国功夫,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/2000000003000000009/index.m3u8?channel-id=hnbblive&Contentid=2000000003000000009&livemode=1&stbId=YanG-1989
 中国功夫,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010087/1.m3u8
 中国功夫,http://[2409:8087:2001:20:2800:0:df6e:eb19]:80/wh7f454c46tw1934355864_2070028581/ott.mobaibox.com/PLTV/3/224/3221227530/index.m3u8
+中国功夫,http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225681/index.m3u8
 潮妈辣婆,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8
 潮妈辣婆,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010005/1.m3u8
 炫舞未来,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225719/index.m3u8
@@ -764,20 +770,25 @@ CHC动作电影,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807
 军事评论,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/2000000003000000022/index.m3u8?channel-id=hnbblive&Contentid=2000000003000000022&livemode=1&stbId=YanG-1989
 军事评论,http://[2409:8087:2001:20:2800:0:df6e:eb18]:80/wh7f454c46tw3373254713_-1111569189/ott.mobaibox.com/PLTV/3/224/3221227544/index.m3u8
 军事评论,http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8
+军事评论,http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225668/index.m3u8
 
 🏛斗鱼直播,#genre#
 橙記Orange丶,https://www.goodiptv.club/douyu/4549169
 橙記Orange丶,https://live.ottiptv.cc/douyu/4549169
 小毅主播q,https://www.goodiptv.club/douyu/6906628
 小毅主播q,https://live.ottiptv.cc/douyu/6906628
+小毅主播q,https://goodiptv.club/douyu/6906628
 小毅主播e,https://www.goodiptv.club/douyu/11851549
 小毅主播e,https://live.ottiptv.cc/douyu/11851549
+小毅主播e,https://goodiptv.club/douyu/11851549
 电视剧僵尸约会,https://www.goodiptv.club/douyu/8371123
 电视剧僵尸约会,https://live.ottiptv.cc/douyu/8371123
 奇光主播,https://www.goodiptv.club/douyu/8009547
 奇光主播,https://live.ottiptv.cc/douyu/8009547
+奇光主播,https://goodiptv.club/douyu/8009547
 奇光主播e,https://www.goodiptv.club/douyu/11849873
 奇光主播e,https://live.ottiptv.cc/douyu/11849873
+奇光主播e,https://goodiptv.club/douyu/11849873
 龍組队长天昊,https://www.goodiptv.club/douyu/1487654
 龍組队长天昊,https://live.ottiptv.cc/douyu/1487654
 baby丶贝贝,https://www.goodiptv.club/douyu/431460
@@ -844,6 +855,7 @@ LR1245,https://www.goodiptv.club/douyu/12534632
 LR1245,https://live.ottiptv.cc/douyu/12534632
 网神影厅,https://www.goodiptv.club/douyu/508118
 网神影厅,https://live.ottiptv.cc/douyu/508118
+网神影厅,https://goodiptv.club/douyu/508118
 奇光主播Blaze,https://www.goodiptv.club/douyu/12817608
 奇光主播Blaze,https://live.ottiptv.cc/douyu/12817608
 三国颜老师,https://www.goodiptv.club/douyu/12253936
@@ -931,6 +943,7 @@ sweet夏有甜,https://live.ottiptv.cc/douyu/4808115
 是个小可爱iiii,https://live.ottiptv.cc/douyu/9650782
 精彩短剧看不停,https://www.goodiptv.club/douyu/11824307
 精彩短剧看不停,https://live.ottiptv.cc/douyu/11824307
+精彩短剧看不停,https://goodiptv.club/douyu/11824307
 百晓生说剧,https://www.goodiptv.club/douyu/9649681
 百晓生说剧,https://live.ottiptv.cc/douyu/9649681
 小小甜的骑士,https://www.goodiptv.club/douyu/9236042
@@ -2664,4 +2677,4 @@ epcdiy,https://live.ottiptv.cc/douyu/8759268
 动漫唯美風,https://live.ottiptv.cc/douyu/8912038
 
 🕘️更新时间,#genre#
-2026-05-18 04:04:36,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?
+2026-05-18 19:28:38,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?
