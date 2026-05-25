@@ -1075,6 +1075,8 @@ https://t.freetv.fun/live/nan-jing-shao-er-2.m3u8
 https://t.freetv.fun/live/nan-jing-shao-er-1.m3u8
 #EXTINF:-1 tvg-id="南京少儿" tvg-name="南京少儿" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南京少儿.png" group-title="☘️江苏频道",南京少儿
 https://t.freetv.fun/live/nan-jing-shao-er-2-1.m3u8
+#EXTINF:-1 tvg-id="南京少儿" tvg-name="南京少儿" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南京少儿.png" group-title="☘️江苏频道",南京少儿
+https://t.freetv.fun/live/nan-jing-shao-er.m3u8
 #EXTINF:-1 tvg-id="南京教科" tvg-name="南京教科" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南京教科.png" group-title="☘️江苏频道",南京教科
 http://nklive.nbs.cn/hls/75b3c462-b831-4de7-a34b-5d3221db2069/index.m3u8
 #EXTINF:-1 tvg-id="南京教科" tvg-name="南京教科" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南京教科.png" group-title="☘️江苏频道",南京教科
@@ -5351,5 +5353,5 @@ https://live.ottiptv.cc/douyu/9942574
 https://www.goodiptv.club/douyu/8912038
 #EXTINF:-1 tvg-id="动漫唯美風" tvg-name="动漫唯美風" tvg-logo="https://www.xn--rgv465a.top/tvlogo/动漫唯美風.png" group-title="🏛斗鱼直播",动漫唯美風
 https://live.ottiptv.cc/douyu/8912038
-#EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-1.png" group-title="🕘️更新时间",2026-05-25 03:43:37
+#EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-1.png" group-title="🕘️更新时间",2026-05-25 18:47:03
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?
