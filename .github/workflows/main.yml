@@ -2,8 +2,12 @@ name: 'Update schedule'
 
 on:
   schedule:
-    - cron: '0 6,18 * * *'  # 每天 6点、18点 执行
+    - cron: '0 6,18 * * *'
   workflow_dispatch:
+
+# 🔥 关键：给推送权限（解决128）
+permissions:
+  contents: write
 
 jobs:
   push:
@@ -19,7 +23,7 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ========== 强制同步远程代码，100% 解决推送失败 ==========
+      # 强制同步远程
       - name: Pull latest code
         run: |
           git fetch origin
@@ -73,5 +77,7 @@ jobs:
           git add .
           if ! git diff --staged --quiet; then
             git commit -m "Github Action Auto Updated"
-            git push --force-with-lease
+            git push
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
