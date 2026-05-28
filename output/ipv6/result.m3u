@@ -463,10 +463,6 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001019/index.m3u8
 #EXTINF:-1 tvg-id="纪实人文" tvg-name="纪实人文" tvg-logo="https://www.xn--rgv465a.top/tvlogo/纪实人文.png" group-title="☘️纪实频道",纪实人文
 http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226230/1.m3u8
-#EXTINF:-1 tvg-id="亮剑" tvg-name="亮剑" tvg-logo="https://www.xn--rgv465a.top/tvlogo/亮剑.png" group-title="🏛经典剧场",亮剑
-http://live.ottiptv.cc/huya/30080238
-#EXTINF:-1 tvg-id="亮剑" tvg-name="亮剑" tvg-logo="https://www.xn--rgv465a.top/tvlogo/亮剑.png" group-title="🏛经典剧场",亮剑
-https://live.ottiptv.cc/huya/30080238
 #EXTINF:-1 tvg-id="武林外传" tvg-name="武林外传" tvg-logo="https://www.xn--rgv465a.top/tvlogo/武林外传.png" group-title="🏛经典剧场",武林外传
 https://live.ottiptv.cc/yy/1355652820
 #EXTINF:-1 tvg-id="武林外传" tvg-name="武林外传" tvg-logo="https://www.xn--rgv465a.top/tvlogo/武林外传.png" group-title="🏛经典剧场",武林外传
@@ -1959,5 +1955,5 @@ https://live.ottiptv.cc/douyu/1528853
 https://live.ottiptv.cc/douyu/9942574
 #EXTINF:-1 tvg-id="动漫唯美風" tvg-name="动漫唯美風" tvg-logo="https://www.xn--rgv465a.top/tvlogo/动漫唯美風.png" group-title="🏛斗鱼直播",动漫唯美風
 https://live.ottiptv.cc/douyu/8912038
-#EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-1.png" group-title="🕘️更新时间",2026-05-28 04:43:47
+#EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-1.png" group-title="🕘️更新时间",2026-05-28 18:41:37
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?
