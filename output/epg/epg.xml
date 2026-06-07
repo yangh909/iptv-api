@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<tv date="20260607061257 +0800">
+<tv date="20260607081422 +0800">
 	<channel id="CCTV-1">
 		<display-name lang="zh">CCTV-1</display-name>
 	</channel>
@@ -7533,6 +7533,132 @@
 	<programme channel="凤凰资讯" start="20260607233000 +0800" stop="20260607235959 +0800">
 		<title lang="zh">问答神州</title>
 	</programme>
+	<channel id="老故事">
+		<display-name lang="zh">老故事</display-name>
+	</channel>
+	<programme channel="老故事" start="20260607000000 +0800" stop="20260607003000 +0800">
+		<title lang="zh">安徽文房四宝（一）</title>
+	</programme>
+	<programme channel="老故事" start="20260607003000 +0800" stop="20260607060100 +0800">
+		<title lang="zh">岁月丹青钱绍武</title>
+	</programme>
+	<programme channel="老故事" start="20260607060100 +0800" stop="20260607063100 +0800">
+		<title lang="zh">百年饭店（5）</title>
+	</programme>
+	<programme channel="老故事" start="20260607063100 +0800" stop="20260607064300 +0800">
+		<title lang="zh">林镜桂</title>
+	</programme>
+	<programme channel="老故事" start="20260607064300 +0800" stop="20260607065500 +0800">
+		<title lang="zh">杨冲</title>
+	</programme>
+	<programme channel="老故事" start="20260607065500 +0800" stop="20260607073500 +0800">
+		<title lang="zh">探寻神秘的南极（下）</title>
+	</programme>
+	<programme channel="老故事" start="20260607073500 +0800" stop="20260607081000 +0800">
+		<title lang="zh">宋庆龄（一）</title>
+	</programme>
+	<programme channel="老故事" start="20260607081000 +0800" stop="20260607082600 +0800">
+		<title lang="zh">科学养生新范式</title>
+	</programme>
+	<programme channel="老故事" start="20260607082600 +0800" stop="20260607090100 +0800">
+		<title lang="zh">南溟宝岛之南海明珠</title>
+	</programme>
+	<programme channel="老故事" start="20260607090100 +0800" stop="20260607093300 +0800">
+		<title lang="zh">红楼一梦（1）</title>
+	</programme>
+	<programme channel="老故事" start="20260607093300 +0800" stop="20260607100600 +0800">
+		<title lang="zh">宋庆龄（二）</title>
+	</programme>
+	<programme channel="老故事" start="20260607100600 +0800" stop="20260607104900 +0800">
+		<title lang="zh">丁武老师的故事</title>
+	</programme>
+	<programme channel="老故事" start="20260607104900 +0800" stop="20260607110500 +0800">
+		<title lang="zh">岁月鉴初心长鸿铸匠心</title>
+	</programme>
+	<programme channel="老故事" start="20260607110500 +0800" stop="20260607111500 +0800">
+		<title lang="zh">把世界带回榆林</title>
+	</programme>
+	<programme channel="老故事" start="20260607111500 +0800" stop="20260607120100 +0800">
+		<title lang="zh">勇者无敌铁道游击队传奇</title>
+	</programme>
+	<programme channel="老故事" start="20260607120100 +0800" stop="20260607123200 +0800">
+		<title lang="zh">南溟宝岛之流放之地</title>
+	</programme>
+	<programme channel="老故事" start="20260607123200 +0800" stop="20260607130100 +0800">
+		<title lang="zh">岁月丹青靳尚谊</title>
+	</programme>
+	<programme channel="老故事" start="20260607130100 +0800" stop="20260607133100 +0800">
+		<title lang="zh">百年饭店（5）</title>
+	</programme>
+	<programme channel="老故事" start="20260607133100 +0800" stop="20260607134300 +0800">
+		<title lang="zh">林镜桂</title>
+	</programme>
+	<programme channel="老故事" start="20260607134300 +0800" stop="20260607135500 +0800">
+		<title lang="zh">杨冲</title>
+	</programme>
+	<programme channel="老故事" start="20260607135500 +0800" stop="20260607143500 +0800">
+		<title lang="zh">探寻神秘的南极（下）</title>
+	</programme>
+	<programme channel="老故事" start="20260607143500 +0800" stop="20260607151000 +0800">
+		<title lang="zh">宋庆龄（一）</title>
+	</programme>
+	<programme channel="老故事" start="20260607151000 +0800" stop="20260607152600 +0800">
+		<title lang="zh">科学养生新范式</title>
+	</programme>
+	<programme channel="老故事" start="20260607152600 +0800" stop="20260607160000 +0800">
+		<title lang="zh">南溟宝岛之南海明珠</title>
+	</programme>
+	<programme channel="老故事" start="20260607160000 +0800" stop="20260607163000 +0800">
+		<title lang="zh">安徽文房四宝（二）</title>
+	</programme>
+	<programme channel="老故事" start="20260607163000 +0800" stop="20260607170100 +0800">
+		<title lang="zh">岁月丹青王琦</title>
+	</programme>
+	<programme channel="老故事" start="20260607170100 +0800" stop="20260607173300 +0800">
+		<title lang="zh">红楼一梦（1）</title>
+	</programme>
+	<programme channel="老故事" start="20260607173300 +0800" stop="20260607180600 +0800">
+		<title lang="zh">宋庆龄（二）</title>
+	</programme>
+	<programme channel="老故事" start="20260607180600 +0800" stop="20260607184900 +0800">
+		<title lang="zh">丁武老师的故事</title>
+	</programme>
+	<programme channel="老故事" start="20260607184900 +0800" stop="20260607190500 +0800">
+		<title lang="zh">岁月鉴初心长鸿铸匠心</title>
+	</programme>
+	<programme channel="老故事" start="20260607190500 +0800" stop="20260607191500 +0800">
+		<title lang="zh">把世界带回榆林</title>
+	</programme>
+	<programme channel="老故事" start="20260607191500 +0800" stop="20260607200100 +0800">
+		<title lang="zh">勇者无敌铁道游击队传奇</title>
+	</programme>
+	<programme channel="老故事" start="20260607200100 +0800" stop="20260607203200 +0800">
+		<title lang="zh">南溟宝岛之流放之地</title>
+	</programme>
+	<programme channel="老故事" start="20260607203200 +0800" stop="20260607210100 +0800">
+		<title lang="zh">岁月丹青靳尚谊</title>
+	</programme>
+	<programme channel="老故事" start="20260607210100 +0800" stop="20260607213100 +0800">
+		<title lang="zh">百年饭店（5）</title>
+	</programme>
+	<programme channel="老故事" start="20260607213100 +0800" stop="20260607214300 +0800">
+		<title lang="zh">林镜桂</title>
+	</programme>
+	<programme channel="老故事" start="20260607214300 +0800" stop="20260607215500 +0800">
+		<title lang="zh">杨冲</title>
+	</programme>
+	<programme channel="老故事" start="20260607215500 +0800" stop="20260607223500 +0800">
+		<title lang="zh">探寻神秘的南极（下）</title>
+	</programme>
+	<programme channel="老故事" start="20260607223500 +0800" stop="20260607231000 +0800">
+		<title lang="zh">宋庆龄（一）</title>
+	</programme>
+	<programme channel="老故事" start="20260607231000 +0800" stop="20260607232600 +0800">
+		<title lang="zh">科学养生新范式</title>
+	</programme>
+	<programme channel="老故事" start="20260607232600 +0800" stop="20260607235900 +0800">
+		<title lang="zh">南溟宝岛之南海明珠</title>
+	</programme>
 	<channel id="NewTV武搏世界">
 		<display-name lang="zh">NewTV武搏世界</display-name>
 	</channel>
@@ -7610,6 +7736,186 @@
 	</programme>
 	<programme channel="NewTV武搏世界" start="20260607230000 +0800" stop="20260607235959 +0800">
 		<title lang="zh">巅峰擂台</title>
+	</programme>
+	<channel id="发现之旅">
+		<display-name lang="zh">发现之旅</display-name>
+	</channel>
+	<programme channel="发现之旅" start="20260607000000 +0800" stop="20260607003000 +0800">
+		<title lang="zh">发现汇</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607003000 +0800" stop="20260607010000 +0800">
+		<title lang="zh">美丽中华行</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607010000 +0800" stop="20260607040000 +0800">
+		<title lang="zh">测试图</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607040000 +0800" stop="20260607042000 +0800">
+		<title lang="zh">测试图</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607042000 +0800" stop="20260607060000 +0800">
+		<title lang="zh">测试图</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607060000 +0800" stop="20260607061500 +0800">
+		<title lang="zh">美丽家园</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607061500 +0800" stop="20260607063000 +0800">
+		<title lang="zh">纪录东方</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607063000 +0800" stop="20260607065500 +0800">
+		<title lang="zh">喜事</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607065500 +0800" stop="20260607070000 +0800">
+		<title lang="zh">你要倾听的大地</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607070000 +0800" stop="20260607073000 +0800">
+		<title lang="zh">发现汇</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607073000 +0800" stop="20260607073500 +0800">
+		<title lang="zh">青春之我(61)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607073500 +0800" stop="20260607074000 +0800">
+		<title lang="zh">青春之我(53)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607074000 +0800" stop="20260607074500 +0800">
+		<title lang="zh">你要倾听的大地(29)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607074500 +0800" stop="20260607075000 +0800">
+		<title lang="zh">你要倾听的大地(30)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607075000 +0800" stop="20260607075500 +0800">
+		<title lang="zh">你要倾听的大地(31)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607075500 +0800" stop="20260607080000 +0800">
+		<title lang="zh">你要倾听的大地(32)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607080000 +0800" stop="20260607083000 +0800">
+		<title lang="zh">美丽中华行</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607083000 +0800" stop="20260607090000 +0800">
+		<title lang="zh">美丽中华行</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607090000 +0800" stop="20260607092700 +0800">
+		<title lang="zh">重建中国茶道</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607092700 +0800" stop="20260607095100 +0800">
+		<title lang="zh">你要倾听的大地</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607095100 +0800" stop="20260607100500 +0800">
+		<title lang="zh">你要倾听的大地</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607100500 +0800" stop="20260607103000 +0800">
+		<title lang="zh">你要倾听的大地</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607103000 +0800" stop="20260607103500 +0800">
+		<title lang="zh">青春之我(61)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607103500 +0800" stop="20260607104000 +0800">
+		<title lang="zh">青春之我(53)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607104000 +0800" stop="20260607104500 +0800">
+		<title lang="zh">晓屯聊摄影</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607104500 +0800" stop="20260607113500 +0800">
+		<title lang="zh">家国</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607113500 +0800" stop="20260607120000 +0800">
+		<title lang="zh">喜事</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607120000 +0800" stop="20260607121500 +0800">
+		<title lang="zh">纪录东方</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607121500 +0800" stop="20260607123000 +0800">
+		<title lang="zh">国家生态</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607123000 +0800" stop="20260607130000 +0800">
+		<title lang="zh">美丽中华行</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607130000 +0800" stop="20260607133000 +0800">
+		<title lang="zh">发现汇</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607133000 +0800" stop="20260607134500 +0800">
+		<title lang="zh">川菜在民间</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607134500 +0800" stop="20260607140000 +0800">
+		<title lang="zh">致敬榜样</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607140000 +0800" stop="20260607140500 +0800">
+		<title lang="zh">青春之我(61)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607140500 +0800" stop="20260607141000 +0800">
+		<title lang="zh">青春之我(53)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607141000 +0800" stop="20260607141500 +0800">
+		<title lang="zh">晓屯聊摄影</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607141500 +0800" stop="20260607150500 +0800">
+		<title lang="zh">家国</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607150500 +0800" stop="20260607153000 +0800">
+		<title lang="zh">喜事</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607153000 +0800" stop="20260607160000 +0800">
+		<title lang="zh">美丽中华行</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607160000 +0800" stop="20260607161500 +0800">
+		<title lang="zh">纪录东方</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607161500 +0800" stop="20260607163000 +0800">
+		<title lang="zh">致敬榜样</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607163000 +0800" stop="20260607164500 +0800">
+		<title lang="zh">川菜在民间</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607164500 +0800" stop="20260607165000 +0800">
+		<title lang="zh">青春之我(61)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607165000 +0800" stop="20260607165500 +0800">
+		<title lang="zh">青春之我(53)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607165500 +0800" stop="20260607170000 +0800">
+		<title lang="zh">频道宣传片</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607170000 +0800" stop="20260607173000 +0800">
+		<title lang="zh">新昌悟语</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607173000 +0800" stop="20260607180000 +0800">
+		<title lang="zh">发现汇</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607180000 +0800" stop="20260607183000 +0800">
+		<title lang="zh">新昌悟语</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607183000 +0800" stop="20260607190000 +0800">
+		<title lang="zh">美丽中华行</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607190000 +0800" stop="20260607190500 +0800">
+		<title lang="zh">晓屯聊摄影</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607190500 +0800" stop="20260607193500 +0800">
+		<title lang="zh">揽胜神州</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607193500 +0800" stop="20260607200600 +0800">
+		<title lang="zh">你要倾听的大地(24)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607200600 +0800" stop="20260607204000 +0800">
+		<title lang="zh">你要倾听的大地(25)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607204000 +0800" stop="20260607213000 +0800">
+		<title lang="zh">家国</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607213000 +0800" stop="20260607213500 +0800">
+		<title lang="zh">青春之我(62)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607213500 +0800" stop="20260607214000 +0800">
+		<title lang="zh">青春之我(54)</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607214000 +0800" stop="20260607230000 +0800">
+		<title lang="zh">还看今朝</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607230000 +0800" stop="20260607235000 +0800">
+		<title lang="zh">家国</title>
+	</programme>
+	<programme channel="发现之旅" start="20260607235000 +0800" stop="20260607235959 +0800">
+		<title lang="zh">佳酿之旅</title>
 	</programme>
 	<channel id="凤凰香港">
 		<display-name lang="zh">凤凰香港</display-name>
