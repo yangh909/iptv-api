@@ -1,12 +1,13 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
+https://ghfast.top/https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
 https://ghfast.top/https://raw.githubusercontent.com/JE668/iptv-api/refs/heads/master/output/result.txt
 https://ghfast.top/https://raw.githubusercontent.com/yyyr-otz/iptv-api/refs/heads/master/output/result.txt
 https://ghfast.top/https://raw.githubusercontent.com/tyxthl/iptv-api/refs/heads/master/output/result.txt
 https://ghfast.top/https://raw.githubusercontent.com/zc1235/iptv-api/refs/heads/master/output/result.txt
 https://ghfast.top/https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
-https://ghfast.top/https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
+
 https://ghfast.top/https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
 https://ghfast.top/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
 
